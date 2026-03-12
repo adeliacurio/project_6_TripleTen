@@ -1,5 +1,7 @@
 # project_6_TripleTen
-Repos
+Data analysis project to identify success patterns in the video game industry. Used Python, Pandas and Matplotlib/Seaborn to analyze global sales, platforms, and user reviews.
+
+---
 
 # Análise de Dados: Padrões de Sucesso na Indústria de Videogames 👋
 
