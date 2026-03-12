@@ -1,35 +1,36 @@
 # project_6_TripleTen
+Repos
 
-## Marketing Analytics: Inteligência de LTV, CAC e ROMI 👋
+# Análise de Dados: Padrões de Sucesso na Indústria de Videogames 👋
 
-### 📋 Descrição do Projeto
-Este projeto foca na análise diagnóstica de aquisição e retenção de clientes para otimização de investimentos em marketing. Através do processamento de dados de transações e logs, o objetivo foi identificar a real lucratividade de diferentes canais de aquisição e corrigir distorções em métricas fundamentais.
+## 📋 Descrição do Projeto
+Neste projeto, atuei como analista na loja online "Ice", que vende videogames no mundo todo. O objetivo foi identificar padrões que determinam se um jogo será bem-sucedido ou não, permitindo planejar campanhas publicitárias baseadas em dados históricos de vendas, avaliações de usuários e especialistas.
 
-### 🎯 Objetivos Estratégicos
-* Calcular e analisar o **LTV (Lifetime Value)** por coortes de clientes.
-* Apurar o **CAC (Custo de Aquisição de Clientes)** e identificar o tempo de recuperação do investimento (Payback).
-* Avaliar o **ROMI (Retorno sobre Investimento em Marketing)** para direcionar a alocação de verba publicitária.
-* Identificar e tratar outliers que mascaram a performance real do negócio.
+## 🎯 Objetivos Estratégicos
+* Identificar plataformas promissoras e ciclos de vida de consoles.
+* Analisar a correlação entre as notas de críticos/usuários e as vendas reais.
+* Mapear o perfil de consumo por região (NA, EU, JP).
+* **Testar hipóteses estatísticas:** Diferença entre as classificações médias dos usuários para as plataformas Xbox One e PC, e entre os gêneros de Ação e Esportes.
 
-### 🛠️ Tecnologias e Ferramentas
+## 🛠️ Tecnologias e Ferramentas
 * **Linguagem:** Python.
-* **Bibliotecas:** Pandas (análise de dados), Seaborn/Matplotlib (visualização de coortes).
-* **Técnicas:** Análise de Coortes, Limpeza de Dados e Análise de Funil.
+* **Bibliotecas:** Pandas (processamento), Matplotlib e Seaborn (visualização), Scipy (testes estatísticos).
+* **Técnicas:** EDA (Análise Exploratória de Dados), Tratamento de Dados Ausentes e Testes de Hipóteses (t-test).
 
-### 📉 Metodologias e Insights
-1.  **Análise de Coortes:** Mapeamento do ciclo de vida do cliente para entender a retenção ao longo do tempo.
-2.  **Tratamento de Dados:** Detecção de outliers que causavam uma distorção de mais de 50% no LTV Real, permitindo uma visão fiel da receita gerada por usuário.
-3.  **Cálculo de Performance:** Cruzamento de dados de custos de marketing com a receita acumulada por canal.
+## 📉 Metodologia e Insights
+1.  **Ciclo de Vida:** Identifiquei que as plataformas levam em média 10 anos para surgir e desaparecer, com o pico de vendas ocorrendo em um intervalo específico.
+2.  **Influência das Críticas:** Através de gráficos de dispersão, quantifiquei como as avaliações de profissionais impactam o volume de vendas mais do que as avaliações de usuários em certas plataformas.
+3.  **Perfil Regional:** Descobri que o mercado japonês possui preferências de gênero e plataforma drasticamente diferentes dos mercados americano e europeu.
 
-### ✅ Resultados
-* Identificação de canais de alta performance com **ROMI de até 20,03x**.
-* Recomendação estratégica de realocação orçamentária para canais com melhor custo-benefício, otimizando o CAC geral da operação.
-* Implementação de uma metodologia de acompanhamento de métricas que permite prever o faturamento futuro com base no comportamento das coortes atuais.
+## ✅ Resultados
+* Identificação das plataformas com maior potencial de crescimento para o ano seguinte.
+* Validação estatística de que as preferências dos usuários variam significativamente dependendo do gênero do jogo.
+* Base estratégica para a alocação de orçamento de marketing focada nos perfis regionais.
 
 ---
 
-#### 💡 Como utilizar este repositório
-1.  O arquivo principal contém o notebook com todo o processo de ETL e análise.
-2.  As visualizações de coortes ajudam a identificar o momento exato em que a retenção de clientes começa a declinar.
+### 💡 Como utilizar este repositório
+1. O notebook contém o fluxo completo de limpeza (data cleaning) e análise.
+2. Os gráficos de "caixa" (boxplots) incluídos mostram a distribuição de vendas por plataforma de forma clara.
 
 ---
